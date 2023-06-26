@@ -21,14 +21,14 @@ The SVG Support plugin enables SVG (Scalable Vector Graphics) support in WordPre
 
 This plugin is designed to be minimalistic and focuses solely on enabling SVG support. It does not enqueue any additional scripts or stylesheets in the frontend, ensuring it won't affect the loading speed of your website.
 
+See plugin's GitHub repo [Support SVG](https://github.com/sayedulsayem/support-svg)
+
 ### **Features**
 
 - Enables SVG uploads in WordPress media library
 - Supports SVG thumbnail display in the Media Library
 - Applies necessary security measures to sanitize SVG uploads
 - Lightweight and does not enqueue any frontend scripts or stylesheets
-
-See plugin's GitHub repo [Support SVG](https://github.com/sayedulsayem/support-svg)
 
 
 ### **PRIVACY POLICY**
@@ -45,10 +45,7 @@ I am [Sayedul Sayem](https://sayedulsayem.com/), a Bangladeshi full-stack WordPr
 2. Activate the plugin through the ‘Plugins’ screen in WordPress
 3. Now go to media from WordPress dashboard and you can upload svg images. 
 
-For a more detailed explanation, check out the following documentation.
-
 == Frequently Asked Questions ==
-
 = Will this plugin automatically work after activation? =
 Yes. You don't need to do anything else other than activating the plugin.
 
