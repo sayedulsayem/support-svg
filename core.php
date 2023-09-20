@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
  * @author sayedulsayem 
  * @since 1.0.0
  */
-final class Plugin {
+final class Core {
 
     /**
      * accesing for object of this class
@@ -56,21 +56,21 @@ final class Plugin {
         add_action( 'admin_head', [ $this, 'svg_thumbnail_support' ] );
     }
 
-    public function svg_modify_mimes($existing_mimes) {
+    public function svg_modify_mimes( $existing_mimes ) {
         $existing_mimes['svg'] = 'image/svg+xml';
         return $existing_mimes;
     }
 
     public function svg_thumbnail_support() {
-        $screen = get_current_screen();
-        if ( 'upload' == $screen->id ) {
-            echo '<style>
-                    ul.attachments li.attachment img[src$=".svg"],
-                    table.media img[src$=".svg"] { 
-                        width: 100% !important; height: auto !important;
-                    }
-                </style>';
-        }
+        ?>
+        <style>
+            .media-modal-content ul.attachments li.attachment img[src$=".svg"],
+            .media-frame ul.attachments li.attachment img[src$=".svg"],
+            table.media img[src$=".svg"] { 
+                width: 100% !important; height: auto !important;
+            }
+        </style>
+        <?php
     }
 
     public function sanitize_svg_uploads( $data, $file, $filename, $mimes ) {

@@ -18,6 +18,7 @@
  * Author:            sayedulsayem
  * Author URI:        https://sayedulsayem.com
  * Text Domain:       support-svg
+ * Domain Path:       /i18n/
  * License:           GPL v3 or later
  * License URI:       http://www.gnu.org/licenses/gpl-3.0.txt
  */
@@ -25,16 +26,16 @@
 if ( ! defined( 'ABSPATH' ) ) exit;
 
 // run plugin initialization file
-require 'plugin.php';
+require 'core.php';
 
 /**
  * update permalink after register cpt
  */
-register_activation_hook( __FILE__, [ SupportSvg\Plugin::instance(), 'flush_rewrites' ] );
+register_activation_hook( __FILE__, [ SupportSvg\Core::instance(), 'flush_rewrites' ] );
 
 /**
  * load plugin after initialize wordpress core
  */
 add_action( 'plugins_loaded', function () {
-    SupportSvg\Plugin::instance()->init();
+    SupportSvg\Core::instance()->init();
 } );
