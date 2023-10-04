@@ -4,13 +4,13 @@ Version: 1.0.0
 Author: sayedulsayem
 Author URI: https://sayedulsayem.com/
 Contributors: sayedulsayem
-Tags: Svg, Support, Media, Safe, Image
+Tags: safe svg, sanitization, svg, vector, upload svg
 Requires at least: 4.7
-Tested up to: 6.2.2
+Tested up to: 6.3.1
 Requires PHP: 5.6
 Stable tag: 1.0.0
 License: GPLv3 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 
 This plugin will help you to upload svg format image in WordPress media library regardless of the theme. That is, it works with every theme. 
@@ -56,11 +56,12 @@ Yes, this plugin should work alongside other media-related plugins without any c
 SVG files can potentially contain malicious code, so it's crucial to exercise caution when allowing SVG uploads from untrusted sources. This plugin applies security measures to sanitize SVG uploads, but it's recommended to only upload SVG files from trusted sources.
 
 == Screenshots ==
-1. Activate the plugin.
-2. Select svg image during upload.
-3. It will be uploaded and you will get a preview of it.
+1. Unable to upload svg format image without Support Svg.
+2. Enable uploading permission svg format image with Support Svg.
+3. A good preview with grid view.
+4. A good preview with list view.
 
 == Changelog ==
 
-= 1.0.0 (26-06-2023) =
+= 1.0.0 =
 * Initial release.
