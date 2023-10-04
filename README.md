@@ -1,6 +1,30 @@
 # Support SVG
 
-###### This plugin will help you to upload svg format image in wordpress media library
+This plugin will help you to upload svg format image in WordPress media library regardless of the theme. That is, it works with every theme.
+
+## Description
+
+The SVG Support plugin enables SVG (Scalable Vector Graphics) support in WordPress. This lightweight plugin allows you to upload and use SVG files in your WordPress media library without any restrictions.
+
+This plugin is designed to be minimalistic and focuses solely on enabling SVG support. It does not enqueue any additional scripts or stylesheets in the frontend, ensuring it won't affect the loading speed of your website.
+
+See plugin's WordPress ORG [Support SVG](https://wordpress.org/plugins/support-svg/)
+
+### Features
+
+- Enables SVG uploads in WordPress media library
+- Supports SVG thumbnail display in the Media Library
+- Applies necessary security measures to sanitize SVG uploads
+- Lightweight and does not enqueue any frontend scripts or stylesheets
+
+
+### PRIVACY POLICY
+
+This plugin does not collect, log, sell or trade any kind of information about your website. You can easily verify that this plugin is not phoning home using a network traffic inspector like [WireShark](https://www.wireshark.org/).
+
+### **ABOUT THE MAKER**
+
+I am [Sayedul Sayem](https://sayedulsayem.com/), a Bangladeshi full-stack WordPress developer and free and open source enthusiast. You can contact me at my [LinkedIn](https://www.linkedin.com/in/sayedulsayem/) for consultation or just to say hello. I love talking to new people. So don't hesitate. 
 
 ## Installation proccess
 

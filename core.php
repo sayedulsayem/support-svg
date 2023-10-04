@@ -37,9 +37,9 @@ final class Core {
      */
     public function define_constant() {
         define( 'SUPPORT_SVG_VERSION', '1.0.0' );
-        define( 'SUPPORT_SVG_PACKAGE', 'free' );
-        define( 'SUPPORT_SVG_PLUGIN_URL', trailingslashit( plugin_dir_url( __FILE__ ) ) );
-        define( 'SUPPORT_SVG_PLUGIN_DIR', trailingslashit( plugin_dir_path( __FILE__ ) ) );
+        // define( 'SUPPORT_SVG_PACKAGE', 'free' );
+        // define( 'SUPPORT_SVG_PLUGIN_URL', trailingslashit( plugin_dir_url( __FILE__ ) ) );
+        // define( 'SUPPORT_SVG_PLUGIN_DIR', trailingslashit( plugin_dir_path( __FILE__ ) ) );
     }
 
     /**
