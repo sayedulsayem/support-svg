@@ -1,0 +1,38 @@
+{
+    "name": "sayedulsayem/support-svg",
+    "description": "empty",
+    "type": "wordpress-plugin",
+    "license": "GPLv3 or later",
+    "scripts": {
+        "dev": [
+            "@composer install"
+        ],
+        "build": [
+            "@composer --no-plugins --no-interaction install --no-scripts --no-dev"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+            "Sayedulsayem\\SupportSvg\\": "includes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sayedul Sayem",
+            "email": "sayedulsayem@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "enshrined/svg-sanitize": "^0.18.0"
+    },
+    "require-dev": {
+        "wp-coding-standards/wpcs": "^3.1",
+        "squizlabs/php_codesniffer": "^3.9"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}

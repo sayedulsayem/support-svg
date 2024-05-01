@@ -1,14 +1,14 @@
-=== Support SVG ===
+=== Support SVG - Upload svg files in wordpress with hassle ===
 Plugin Name: Support SVG
-Version: 1.0.0
-Author: sayedulsayem
+Version: 1.1.0
+Author: Sayedul Sayem
 Author URI: https://sayedulsayem.com/
 Contributors: sayedulsayem
-Tags: safe svg, sanitization, svg, vector, upload svg
-Requires at least: 4.7
-Tested up to: 6.3.1
-Requires PHP: 5.6
-Stable tag: 1.0.0
+Tags: sanitize, security, SVG, vector, upload
+Requires at least: 5.0
+Tested up to: 6.5
+Requires PHP: 7.4
+Stable tag: 1.1.0
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -62,6 +62,9 @@ SVG files can potentially contain malicious code, so it's crucial to exercise ca
 4. A good preview with list view.
 
 == Changelog ==
+
+= 1.1.0 =
+* Fix: Sanitize svg for improving security.
 
 = 1.0.0 =
 * Initial release.
