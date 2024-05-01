@@ -1,4 +1,4 @@
-=== Support SVG - Upload svg files in wordpress with hassle ===
+=== Support SVG - Upload svg files in wordpress without hassle ===
 Plugin Name: Support SVG
 Version: 1.1.0
 Author: Sayedul Sayem
