@@ -2,16 +2,16 @@
 # This file is distributed under the GPL v3 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Support SVG 1.1.0\n"
+"Project-Id-Version: Support SVG 1.1.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/support-svg\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-05-01T17:58:59+00:00\n"
+"POT-Creation-Date: 2024-11-24T11:42:33+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.10.0\n"
+"X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: support-svg\n"
 
 #. Plugin Name of the plugin
@@ -39,6 +39,6 @@ msgstr ""
 msgid "https://sayedulsayem.com"
 msgstr ""
 
-#: includes/SupportSvg.php:65
+#: includes/SupportSvg.php:66
 msgid "Sorry, this file couldn't be sanitized so for security reasons wasn't uploaded"
 msgstr ""

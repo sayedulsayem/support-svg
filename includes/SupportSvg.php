@@ -31,7 +31,7 @@ class SupportSvg {
 	 * @since 1.0.0
 	 */
 	public function define_constants() {
-		define( 'SUPPORT_SVG_VERSION', '1.1.0' );
+		define( 'SUPPORT_SVG_VERSION', '1.1.1' );
 	}
 
 	public function activate() {
@@ -40,6 +40,7 @@ class SupportSvg {
 
 	public function init_plugin() {
 		add_filter( 'upload_mimes', [ $this, 'svg_modify_mimes' ] );
+		add_filter( 'wp_handle_sideload_prefilter', [ $this, 'check_for_svg' ] );
 		add_filter( 'wp_handle_upload_prefilter', [ $this, 'check_for_svg' ] );
 		add_filter( 'wp_check_filetype_and_ext', [ $this, 'fix_mime_type_svg' ], 10, 4 );
 
