@@ -5,7 +5,7 @@
  *
  * @package           support-svg
  * @author            Sayedul Sayem
- * @copyright         2023 - 2024 Sayedulsayem
+ * @copyright         2023 - 2025 Sayedulsayem
  * @license           GPL-3.0-or-later
  *
  * @wordpress-plugin

@@ -6,7 +6,7 @@ Author URI: https://sayedulsayem.com/
 Contributors: sayedulsayem
 Tags: sanitize, security, SVG, vector, upload
 Requires at least: 5.0
-Tested up to: 6.7
+Tested up to: 6.8
 Requires PHP: 7.4
 Stable tag: 1.1.1
 License: GPLv3 or later

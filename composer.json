@@ -24,11 +24,11 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "enshrined/svg-sanitize": "^0.18.0"
+        "enshrined/svg-sanitize": "^0.22.0"
     },
     "require-dev": {
-        "wp-coding-standards/wpcs": "^3.1",
-        "squizlabs/php_codesniffer": "^3.9"
+        "wp-coding-standards/wpcs": "^3.2",
+        "squizlabs/php_codesniffer": "^3.13"
     },
     "config": {
         "allow-plugins": {
