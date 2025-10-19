@@ -31,7 +31,7 @@ class SupportSvg {
 	 * @since 1.0.0
 	 */
 	public function define_constants() {
-		define( 'SUPPORT_SVG_VERSION', '1.1.1' );
+		define( 'SUPPORT_SVG_VERSION', '1.1.2' );
 	}
 
 	public function activate() {

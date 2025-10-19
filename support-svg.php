@@ -5,14 +5,14 @@
  *
  * @package           support-svg
  * @author            Sayedul Sayem
- * @copyright         2023 - 2024 Sayedulsayem
+ * @copyright         2023 - 2025 Sayedulsayem
  * @license           GPL-3.0-or-later
  *
  * @wordpress-plugin
  * Plugin Name:       Support SVG
  * Plugin URI:        https://wordpress.org/plugins/support-svg/
  * Description:       Lightest plugin to upload svg in WordPress
- * Version:           1.1.1
+ * Version:           1.1.2
  * Requires at least: 5.0
  * Requires PHP:      7.4
  * Author:            Sayedul Sayem
